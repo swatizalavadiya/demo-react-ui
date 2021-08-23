@@ -1,0 +1,38 @@
+.list-group  {
+    display: flex;
+    justify-content: space-between;
+    background: #fff;
+    padding: 5px 0;
+    border-top: 1px solid #e9ecef;
+}
+
+.list-group-item {
+    border: 0!important;
+}
+
+.list-group-item img{
+    width:30px;
+}
+
+.headergroup {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+
+.topmenu {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    border-bottom: 1px solid #e9ecef;
+}
+
+.navbar-light .navbar-toggler{
+    border:0!important;
+    font-size: 16px!important;
+    padding: 0!important;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none!important;
+}

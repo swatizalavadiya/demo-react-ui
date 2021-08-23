@@ -1,0 +1,34 @@
+.navbar-nav .cartLogo {
+    border: 1px solid #f05a35;
+    padding: 5px;
+    border-radius: 25px;
+    background-color: #f05a35;
+}
+
+.navbar-nav .call {
+    border: 1px solid #f05a35;
+    border-radius: 25px;
+    background-color: #f05a35;
+    height: fit-content;
+    color: #fff!important;
+}
+
+.navbar-light .navbar-toggler{
+    border:0!important;
+    font-size: 16px!important;
+    padding: 0!important;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none!important;
+}
+
+@media screen and (max-width: 991px) {
+    .navbar {
+        border-bottom: 1px solid #e9ecef;
+        padding:0!important;
+    }
+    .navbar-brand img{
+        width: 35px;
+    }
+}
